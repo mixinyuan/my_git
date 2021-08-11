@@ -1,10 +1,10 @@
 package com.mxy.demo.strategy.factory;
 
-import com.mxy.demo.strategy.*;
+import com.mxy.demo.strategy.PriceRegion;
+import com.mxy.demo.strategy.Strategy;
 import com.mxy.demo.strategy.player.Player;
 
 import java.io.File;
-import java.io.FilenameFilter;
 import java.lang.annotation.Annotation;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -50,7 +50,7 @@ public class StrategyFactory {
     private  List< Class<? extends Strategy>> strategyList;
 
     /**
-     * 根据输入金额获取对应的策略类
+     * 根据输入金额获取对应的策略类 修改
      * @param player
      * @return
      */
